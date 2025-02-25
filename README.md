@@ -3,4 +3,4 @@
 > 2025-02
 + :zap:[(Week 1) 클래스와 인스턴스, 정적 메소드란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-1)
 + :zap:[(Week 2) 제1종오류와 제2종오류, p-value란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-2)
-+ :zap:[(Week 3)]
++ :zap:[(Week 3) 결측치 제거법, t-test란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-3)
