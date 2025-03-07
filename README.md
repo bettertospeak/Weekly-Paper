@@ -6,5 +6,8 @@
 + :zap:[(Week 3) 결측치 제거법, t-test란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-3)
 
 ## Week 4
----
 ### ***사분위수***란 무엇인가?
+* 사분위수(Qualtile Deviation)의 목적
+  데이터의 산포도 정도를 표현하는 방법에는 편차제곱합, 분산 등의 방법이 있는데
+  그러한 방법들 중에 하나임
+### ***기술통계***와 ***추론통계***
