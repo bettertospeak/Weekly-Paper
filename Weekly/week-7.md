@@ -45,8 +45,8 @@ HAVING ern_sum > 40000000 (가능)
 ;
 ```
 * GROUP BY에서 불가능한 이유? 실행순서 때문!
-> 쿼리가 최종적으로 실행될 때는 별칭을 설정한 SELECT절이 GROUP BY보다 나중에 실행됨
-> 따라서 먼저 실행된 GROUP BY절은 별칭을 알 수 없겠죠?
+> 쿼리가 최종적으로 실행될 때는 별칭을 설정한 SELECT절이 GROUP BY보다 나중에 실행됨<br/>
+> 따라서 먼저 실행된 GROUP BY절은 별칭을 알 수 없겠죠?<br/>
 * GROUP BY 다음 실행순서가 HAVING, SELECT인데 그럼 HAVING은 왜 될까?
-> 논리적으로 HAVING이 SELECT보다 먼저 실행되지만, HAVING은 SELECT의 별칭을 내부적으로 미리 참조할 수 있게 해줌
+> 논리적으로 HAVING이 SELECT보다 먼저 실행되지만, HAVING은 SELECT의 별칭을 내부적으로 미리 참조할 수 있게 해줌<br/>
 > But, 이것은 MYSQL에만 적용되는 내용이므로 다른 DBMS(Oracle 등)에서는 문제가 생길 수 있음
