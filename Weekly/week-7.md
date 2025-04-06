@@ -1,4 +1,4 @@
-# GROUP BY와 HAVING의 차이
+# *GROUP BY*와 *HAVING*의 차이
 > GROUP BY란?
 * 특정 열을 기준으로 삼아 해당하는 값을 그룹으로 모아주는 함수
 ```
@@ -50,3 +50,29 @@ HAVING ern_sum > 40000000 (가능)
 * GROUP BY 다음 실행순서가 HAVING, SELECT인데 그럼 HAVING은 왜 될까?
 > 논리적으로 HAVING이 SELECT보다 먼저 실행되지만, HAVING은 SELECT의 별칭을 내부적으로 미리 참조할 수 있게 해줌<br/>
 > But, 이것은 MYSQL에만 적용되는 내용이므로 다른 DBMS(Oracle 등)에서는 문제가 생길 수 있음
+
+# *NULL*과 *NULL* 처리 함수
+> NULL이란?
+* 0 및 공백과는 다른, 값 자체가 입력되지 않아 무의 상태임을 나타내는 값
+> NULL 처리 함수에는 어떤 것이 있나?
+1. IFNULL
+```
+IFNULL (표현식1, 표현식2)
+```
+* 표현식1의 값이 NULL이면 표현식2의 값을 출력, NULL이 아니면 표현식1의 값을 그대로 출력
+* 표현식들 간의 타입이 달라도 SQL이 자동으로 형변환을 시켜줌
+2. NULLIF
+```
+NULLIF (표현식1, 표현식2)
+```
+* 표현식1과 표현식2의 값이 같으면 NULL, 다르면 표현식1의 값을 그대로 출력
+3. COALESCE
+```
+COALESECE (표현식1, 표현식2, ...)
+```
+* 표현식이 여러 개 주어지는 경우 해당 표현식들 중 NULL이 아닌 최초의 값을 리턴함
+* 모든 표현식이 NULL이라면 NULL 리턴
+> 그렇다면 NULLIF와 COALESCE는 어떨 때 사용할까?
+* NULLIF는 인자가 꼭 2개, COALESCE는 2개 이상도 가능함
+* NULLIF는 특정 조건하에서 NULL을 처리할 때 주로 사용하고, (표현식 간의 값이 같다/다르다는 조건)
+* COALESCE는 모든 NULL에 기본값을 지정할 때 주로 사용함
