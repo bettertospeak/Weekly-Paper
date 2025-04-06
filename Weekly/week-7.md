@@ -26,7 +26,7 @@ HAVING SUM(earnings) > 40000000
 * 두 함수 모두 데이터들을 그룹으로 분류해 해당 그룹 안에서 기준이 되는 열별 통계 정보를 얻을 때 추가로 사용됨
 * FROM 및 WHERE절 뒤에 위치해야 함
 > GROUP BY와 HAVING의 차이점
-> GROUP BY에는 직접적으로 집계함수를 사용할 수 없지만, HAVING에는 가능함
+* GROUP BY에는 직접적으로 집계함수를 사용할 수 없지만, HAVING에는 가능함
 ```
 SELECT position
 FROM EMPLOYEE
@@ -36,7 +36,7 @@ HAVING SUM(earnings) > 40000000 (가능)
 
 HAVING에서 따로 집계함수를 사용하지 않는다면, SELECT의 불러올 컬럼에 적용하는 방법 등이 있음
 ```
-> (MYSQL 기준) GROUP BY에는 ALIAS 사용 불가, HAVING에는 사용 가능함
+* (MYSQL 기준) GROUP BY에는 ALIAS 사용 불가, HAVING에는 사용 가능함
 ```
 SELECT position, SUM(earnings) AS ern_sum
 FROM EMPLOYEE
