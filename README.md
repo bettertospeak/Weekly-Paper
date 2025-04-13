@@ -6,4 +6,5 @@
 + :zap:[(Week 3) 결측치 제거법, t-test란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-3)
 + :zap:[(Week 4) 사분위수, 기술통계 및 추론통계란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-4.md)
 > 2025-04
-+ :green_apple:[(Week 7) GROUP BY와 HAVING의 차이, NULL값이란?]()
++ :green_apple:[(Week 7) GROUP BY와 HAVING의 차이, NULL값이란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-7.md)
++ 
