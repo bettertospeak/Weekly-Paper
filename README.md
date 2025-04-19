@@ -7,4 +7,5 @@
 + :zap:[(Week 4) 사분위수, 기술통계 및 추론통계란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-4.md)
 > 2025-04
 + :green_apple:[(Week 7) GROUP BY와 HAVING의 차이, NULL값이란?](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-7.md)
-+ 
++ :green_apple:[(Week 8) 데이터베이스 정규화, DB 관련 개념](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-8.md)
++ :green_apple:[(Week 9) 비즈니스 프레임워크](https://github.com/bettertospeak/Weekly-Paper/blob/main/Weekly/week-9.md)
