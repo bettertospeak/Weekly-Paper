@@ -1,7 +1,13 @@
 # 지도학습과 비지도학습
 ## 📚 지도학습 Supervised Learning
-https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Supervised_and_unsupervised_learning.png/700px-Supervised_and_unsupervised_learning.png
-
+> 예측 변수와 예상 답변을 가지고 학습하는 방법
+* 예상 답변이 레이블로 이미 지정되어있음 = 어떤 변수에 대한 답이 있다고 가정
+### 회귀 Regression
+> 연속된 값을 예측할 때 사용
+* 소셜 미디어 공유 점수 및 성과 점수 예측, 강우 및 기상 상황 예측 등
+### 분류 Classification
+> 이산된 값을 예측할 때 사용
+* 단어를 명사와 동사로 분류, 대출 신청자의 고위험 또는 저위험 여부 결정 등
 ## ❎ 비지도학습
 
 ## 🤔 지도학습과 비지도학습의 차이?
