@@ -6,7 +6,7 @@
 
 > 편향과 분산의 관계
 * 편향과 분산은 trade-off 관계로, 반비례하는 경향을 보임
-> 이미지 출처 </br>
+> 이미지 출처
 https://medium.com/data-science/understanding-the-bias-variance-tradeoff-165e6942b229
 ---
 # K-Fold 교차 검증에서 K의 값을 선택할 때 고려해야 할 점
@@ -16,3 +16,9 @@ https://medium.com/data-science/understanding-the-bias-variance-tradeoff-165e694
   
 <img width="694" alt="Image" src="https://github.com/user-attachments/assets/87766df6-7e34-44a8-8edc-17266264810c" /> </br>
 
+> 고려해야할 점
+1. 데이터셋의 크기 : 작으면 많이, 크면 적게
+2. 모델 학습 시간 : 훈련을 여러번 할수록 비용 증가
+3. 편향과 분산 : K가 작을수록 검증 세트가 커지면서 편향이 커지고 분산은 작아짐 -> 편향과 분산 정도의 조합 고려
+> 이미지 출처
+https://quantdev.ssri.psu.edu/sites/qdev/files/CV_tutorial.html
