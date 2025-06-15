@@ -12,6 +12,7 @@ https://medium.com/data-science/understanding-the-bias-variance-tradeoff-165e694
 # K-Fold 교차 검증에서 K의 값을 선택할 때 고려해야 할 점
 > K-Fold 교차 검증이란?
 * K개의 데이터 세트를 만들어 K번만큼 각 세트에 학습과 평가를 반복적으로 수행하는 방법
+* K-1개의 훈련세트, 1개의 검증세트
   * 이를 통해 K개의 예측 평가를 평균으로 계산하여 평가 결과 값으로 리턴함 </br>
   
 <img width="694" alt="Image" src="https://github.com/user-attachments/assets/87766df6-7e34-44a8-8edc-17266264810c" /> </br>
