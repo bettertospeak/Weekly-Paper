@@ -2,6 +2,7 @@
 # 모델 학습에서의 편향(Bias)과 분산(Variance), 두 개념 간의 관계
 * 편향 : 한 쪽으로 치우친 정도, 즉 모델 학습에서 예측값과 실제값에 얼마나 가깝거나 먼지 보는 척도
 * 분산 : 퍼져있는 정도, 즉 모델 학습에서 예측값과 실제값이 얼마나 흩어져있는지 보는 척도 </br>
+
 <img width="712" alt="Image" src="https://github.com/user-attachments/assets/daaab32f-f8d4-4d28-a475-3460d493239a" /> </br>
 
 > 편향과 분산의 관계
