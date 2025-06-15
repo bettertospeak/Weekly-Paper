@@ -6,7 +6,7 @@
 
 > 편향과 분산의 관계
 * 편향과 분산은 trade-off 관계로, 반비례하는 경향을 보임
-> 이미지 출처
+> 이미지 출처 </br>
 https://medium.com/data-science/understanding-the-bias-variance-tradeoff-165e6942b229
 ---
 # K-Fold 교차 검증에서 K의 값을 선택할 때 고려해야 할 점
