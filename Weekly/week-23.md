@@ -9,4 +9,5 @@
 * branch : commit 단위로 구분된 소스 코드 타임라인에서의 분기점, 즉 주된 개발 경로(master/main)에서 분리된 독립적인 개발 경로
   * branch에서 작업을 완료하면 merge 작업 수행 가능
     
-    ![Image](https://github.com/user-attachments/assets/4942dbc4-e857-4054-908d-f16f39469341)
+    ![Image](https://github.com/user-attachments/assets/4942dbc4-e857-4054-908d-f16f39469341)  </br> 
+    main이 아니라 branch에서 branch로 합쳐서 진행하는 경우도 존재함
