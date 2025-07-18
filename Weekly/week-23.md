@@ -10,6 +10,7 @@ C:\USERS\BETTERTOSPEAK\PART4\BREWERY.txt
 * ex) 지금 서있는 위치에서 버스타고 2블럭 가서 OO상가 밀집지구 안으로 들어가면 보이는 건물 1001호야
 ``` ruby
 아래와 같은 상황에서
+
 /home/user/project/
 ├── data/
 │   └── data.csv
@@ -18,8 +19,10 @@ C:\USERS\BETTERTOSPEAK\PART4\BREWERY.txt
 └── README.md
 
 현재 절대경로 : /home/user/project/analysis.py
+
 만약 목적지가 /home/user/project/data/data.csv라면,
 ../data/data/csv 라고 작성
+
 (.. : 상위 디렉토리로 이동)
 ```
 
