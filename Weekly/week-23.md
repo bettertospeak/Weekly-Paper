@@ -18,7 +18,7 @@ C:\USERS\BETTERTOSPEAK\PART4\BREWERY.txt
 │   └── analysis.py   # 출발점
 └── README.md
 
-현재 절대경로 : /home/user/project/analysis.py
+현재 절대경로 : /home/user/project/script/analysis.py
 
 만약 목적지가 /home/user/project/data/data.csv라면,
 ../data/data/csv 라고 작성
