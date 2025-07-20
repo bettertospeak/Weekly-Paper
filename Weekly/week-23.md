@@ -35,4 +35,4 @@ C:\USERS\BETTERTOSPEAK\PART4\BREWERY.txt
   * branch에서 작업을 완료하면 merge 작업 수행 가능
     
     ![Image](https://github.com/user-attachments/assets/4942dbc4-e857-4054-908d-f16f39469341)  </br> 
-    위 그림처럼main이 아니라 branch에서 branch로 합쳐서 진행하는 경우도 존재함
+    위 그림처럼 main이 아니라 branch에서 branch로 합쳐서 진행하는 경우도 존재함
