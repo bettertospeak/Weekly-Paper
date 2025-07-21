@@ -21,7 +21,7 @@ C:\USERS\BETTERTOSPEAK\PART4\BREWERY.txt
 현재 절대경로 : /home/user/project/script/analysis.py
 
 만약 목적지가 /home/user/project/data/data.csv라면,
-../data/data/csv 라고 작성
+../data/data.csv 라고 작성
 
 (.. : 상위 디렉토리로 이동)
 ```
